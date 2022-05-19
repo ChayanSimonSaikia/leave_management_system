@@ -1,0 +1,29 @@
+.vertical_body {
+  header {
+    background-color: rgb(59, 59, 59);
+    color: white;
+    width: 10%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-family: sans-serif;
+    
+    li{
+        list-style: none;
+        padding: 20px 0px;
+
+        a{
+            text-decoration: none;
+            color: rgb(226, 226, 226);
+            font-weight: normal;
+            line-height: 20px;
+            transition: color 0.3s;
+
+            &:hover{
+                color: rgb(163, 163, 163);
+            }
+        }
+    }
+  }
+}

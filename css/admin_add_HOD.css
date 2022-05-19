@@ -1,0 +1,23 @@
+select{
+    border: none;
+    text-align-last: center;
+    width: 300px;
+    height: 30px;
+    border-radius: 10px;
+    outline: none;
+}
+textarea{
+    border: none;
+    text-align-last: center;
+    width: 300px;
+    height: 100px;
+    border-radius: 10px;
+    outline: none;
+}
+textarea::placeholder{
+    text-align: center;
+}
+.form_body{
+    margin-top: 400px;
+    padding: 50px 70px 50px 70px;
+}

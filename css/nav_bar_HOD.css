@@ -1,0 +1,147 @@
+
+  header {
+    display: flex;
+    align-items: center;
+    padding: 25px 2%;
+    background-color: white;
+  }
+  header nav{
+      display: flex;
+      justify-content: flex-start;
+  }
+  
+  .nav__links {
+    list-style: none;
+    display: flex;
+    background-color: white;
+  }
+  
+  .nav__links a,
+  .apply,
+  .overlay__content a {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    color: #818181;
+    text-decoration: none;
+  }
+  
+  .nav__links li {
+    padding: 0px 20px;
+    background-color: white;
+  }
+  
+  .nav__links li a {
+      outline: none;
+      background-color: white;
+    transition: all 0.3s ease 0s;
+  }
+  
+  .nav__links li a:hover {
+    color: #0088a9;
+  }
+  
+  .apply {
+    position: absolute;
+    left: 85%;
+    outline: none;
+    font-size: 22px;
+    margin-left: 20px;
+    padding: 9px 45px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+  }
+  .cta {
+    background-color: rgb(78, 78, 78);
+    color: white;
+    z-index: 0;
+    position: absolute;
+    left: 65%;
+    outline: none;
+    font-size: 22px;
+    margin-left: 20px;
+    padding: 9px 45px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+  }
+  /* Mobile Nav */
+
+.menu {
+  display: none;
+}
+
+.overlay {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  background-color: #24252a;
+  overflow-x: hidden;
+  transition: all 0.5s ease 0s;
+}
+
+.overlay__content {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.overlay a {
+  padding: 15px;
+  font-size: 36px;
+  display: block;
+  transition: all 0.3s ease 0s;
+}
+
+.overlay a:hover,
+.overlay a:focus {
+  color: #0088a9;
+}
+.overlay .close {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+  color: #edf0f1;
+  cursor: pointer;
+}
+  @media screen and (max-height: 450px) {
+    .overlay a {
+      font-size: 20px;
+    }
+    .overlay .close {
+      font-size: 40px;
+      top: 15px;
+      right: 35px;
+    }
+  }
+  
+  @media only screen and (max-width: 800px) {
+    .nav__links
+     {
+      display: none;
+    }
+    .apply{
+      padding: 9px 25px;
+      position: absolute;
+      left: 0%;
+    }
+    .cta{
+      position: absolute;
+      top: -5px;
+      left: 52.5%;
+      padding: 9px 25px;
+    }
+    header{
+      padding: 40px 10%;
+  }
+    .menu {
+      display: initial;
+    }
+  }
+  

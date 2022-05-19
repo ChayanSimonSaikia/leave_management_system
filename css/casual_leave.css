@@ -1,0 +1,91 @@
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #1c1c1b;
+  font-family: "Montserrat", sans-serif;
+}
+.form_body {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgb(31, 137, 151);
+  width: 600px;
+  height: 700px;
+  text-align: center;
+  border-radius: 20px;
+  box-shadow: 0px 0px 20px black;
+  margin-top: 200px;
+}
+.divider_row{
+    margin: 50px 50px 50px 50px;
+    line-height: 50px;
+}
+label{
+    float: left;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+input{
+    float: right;
+    width: 300px;
+    height: 30px;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: black;
+    text-align: center;
+    outline: none;
+    font-family: "Montserrat", sans-serif;
+    
+}
+form .submit {
+    margin: 30px 250px;
+    background-color: rgb(64, 86, 131);
+    border: none;
+    color: white;
+    width: 120px;
+    height: 40px;
+    padding: 0px 20px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.3);
+    font-size: 16px;
+    transition: all 0.3s;
+    border-radius: 20px;
+    
+  }
+form .submit:hover {
+    background-color: rgb(62, 80, 117);
+  }
+input::placeholder{
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+select{
+    float: right;
+    width: 305px;
+    height: 40px;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+    outline: none;
+    text-align-last:center;  
+}
+textarea{
+    float: right;
+    width: 295px;
+    height: 120px;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+    outline: none;
+    text-align: center;  
+    font-size: 15px;
+    font-family: "Montserrat", sans-serif;
+}
+textarea::placeholder{
+    color: rgb(0, 0, 0);
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+    font-size: 13px;
+}

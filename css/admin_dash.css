@@ -1,0 +1,62 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+  background-color: #1c1c1b;
+  color: rgb(43, 43, 43);
+}
+
+.table_body {
+  margin: 100px;
+}
+table {
+  background-color: #38b89c;
+  padding: 50px;
+  border-radius: 10px;
+}
+th {
+  text-align: center;
+  padding: 10px 30px;
+  border-style: solid;
+  border-width: 0 0 1px 0;
+}
+td {
+  text-align: justify;
+  padding: 10px 0px;
+  border-width: 0 0 1px 0;
+  color: rgb(27, 0, 70);
+  line-height: 25px;
+}
+.accept {
+  background-color: rgb(219, 217, 84);
+  padding: 15px 20px;
+  border-style: none;
+  border-radius: 30px;
+  font-weight: bold;
+  font-family: "Montserrat", sans-serif;
+  transition: all 0.4s;
+  cursor: pointer;
+  outline: none;
+}
+.reject {
+  background-color: rgb(211, 55, 55);
+  padding: 15px 20px;
+  border-style: none;
+  border-radius: 30px;
+  font-weight: bold;
+  font-family: "Montserrat", sans-serif;
+  cursor: pointer;
+  transition: all 0.4s;
+  outline: none;
+}
+.accept:hover, .accept:focus {
+  background-color: rgb(189, 186, 52);
+  color: rgb(255, 254, 220);
+}
+.reject:hover, .reject:focus {
+  background-color: rgb(160, 53, 53);
+  color: rgb(255, 219, 219);
+}
+.color_change{
+  background-color: #581f1f;
+}

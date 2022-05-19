@@ -1,0 +1,70 @@
+body {
+  background-color: #1c1c1b;
+  margin: 0px;
+  padding: 0px;
+  font-family: "Montserrat", sans-serif;
+  color: white;
+}
+.grid_body {
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 30px;
+}
+.casual {
+  background-color: rgb(31, 137, 151);
+  padding: 50px;
+  width: 150px;
+  height: 150px;
+  transition: all 0.3s;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.7);
+  cursor: pointer;
+}
+.maternity {
+  background-color: rgb(31, 137, 151);
+  padding: 50px;
+  width: 150px;
+  height: 150px;
+  transition: all 0.3s;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.7);
+  cursor: pointer;
+}
+.child {
+  background-color: rgb(31, 137, 151);
+  padding: 50px;
+  width: 150px;
+  height: 150px;
+  transition: all 0.3s;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.7);
+  cursor: pointer;
+}
+.wrapper p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.casual:hover,.maternity:hover,.child:hover{
+    background-color: rgb(27, 122, 134);
+    transform: translateY(-20px);
+    box-shadow: 0px 40px 30px rgba(0, 0, 0, 0.4);
+    cursor: pointer;
+}
+.casual:focus,.maternity:focus,.child:focus{
+    transform: translateY(-20px);
+    box-shadow: 0px 40px 30px rgba(0, 0, 0, 0.4);
+    background-color: rgb(27, 122, 134);
+    cursor: pointer;
+}

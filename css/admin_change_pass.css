@@ -1,0 +1,72 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #1c1c1b;
+    font-family: sans-serif;
+    color: white;
+}
+
+.pass_body{
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgb(0, 0, 0);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 50px 30px 100px 30px;
+    background-color: #38b89c;
+}
+.pass_body2{
+    margin-top: 100px;
+}
+.pass_body3{
+    margin-top: 200px;
+}
+.pass_body4{
+    margin-top: 70px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px 50px;
+}
+input{
+    border: none;
+    text-align: center;
+    width: 300px;
+    height: 30px;
+    border-radius: 10px;
+    outline: none;
+}
+select{
+    border: none;
+    text-align-last: center;
+    width: 300px;
+    height: 30px;
+    border-radius: 10px;
+    outline: none;
+}
+input::placeholder{
+    text-align: center;
+}
+.btn{
+    border-radius: 15px;
+    border: none;
+    background-color: rgb(145, 253, 160);
+    width: 150px;
+    height: 30px;
+    transition: all 0.3s;
+    outline: none;
+}
+.btn:hover{
+    background-color: rgb(133, 219, 144);
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.034);
+
+}
+.color_change{
+    background-color: #581f1f;
+}
